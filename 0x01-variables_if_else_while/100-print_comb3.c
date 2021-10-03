@@ -11,7 +11,7 @@ int main(void)
 	int u;
 
 	d = 48;
-	while ( d <= 57)
+	while (d <= 57)
 	{
 		u = 49;
 
@@ -21,7 +21,7 @@ int main(void)
 			{
 				putchar(d);
 				putchar(u);
-				if(d == 56)
+				if (d == 56)
 				{
 					putchar(10);
 					break;
