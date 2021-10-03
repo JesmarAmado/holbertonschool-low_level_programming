@@ -26,8 +26,8 @@ int main(void)
 					putchar(10);
 					break;
 				}
-				putchar(32);
 				putchar(44);
+				putchar(32);
 			}
 			u++;
 		}
