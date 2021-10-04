@@ -2,27 +2,20 @@
 
 /**
  * main - Entry
- * 
+ *
  * Return: 0
  */
 int main(void)
 {
-	int a;
-	int b;
-	int c;
-	int d;
-	
-	a = 48;
-	while(a <= 57)
+	int a, b, c, d;
+
+	for (a = 48; a <= 57 ; a++)
 	{
-		b = 48;
-		while(b <= 57)
+		for (b = 48; b <= 57 ; b++)
 		{
-			c = 48;
-			while(c <= 57)
+			for (c = 48; c <= 57 ; c++)
 			{
-				d = 48;
-				while(d <= 57)
+				for (d = 48; d <= 57 ; d++)
 				{
 					if (((a + b) < (c + d) && c >= a) || a < c)
 					{
@@ -31,22 +24,17 @@ int main(void)
 						putchar(32);
 						putchar(c);
 						putchar(d);
-						if(a == 57 && b == 56 && c== 57 && d == 57)
-						{
-							putchar(10);
-							break;
-						}
+					if (a == 57 && c == 57 && d == 57 && b == 56)
+					{
+						putchar(10);
+						break;
+					}
 						putchar(44);
 						putchar(32);
 					}
-					d++;
 				}
-				c++;
 			}
-			b++;
 		}
-		a++;
 	}
-
 	return (0);
 }
