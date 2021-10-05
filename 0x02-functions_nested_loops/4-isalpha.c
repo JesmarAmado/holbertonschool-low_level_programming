@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - int c
+ * @c: variable
  *
  * Return: 0
  */
