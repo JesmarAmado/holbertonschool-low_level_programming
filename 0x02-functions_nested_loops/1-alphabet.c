@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 #include "main.h"
 
 /**
@@ -15,9 +13,9 @@ void print_alphabet(void)
 
 	while (a <= 122)
 	{
-		putchar(a);
+		_putchar(a);
 		a++;
 	}
 
-	putchar(10);
+	_putchar(10);
 }
