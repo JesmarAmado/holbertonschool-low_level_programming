@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 	int b;
 
 	a = 97;
-	
+
 	while (a <= 97 + 9)
 	{
 		b = 97;
