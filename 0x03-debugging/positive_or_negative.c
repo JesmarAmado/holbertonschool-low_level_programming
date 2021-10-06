@@ -3,6 +3,7 @@
 /**
  * positive_or_negative - Entry
  *
+ * @i: parameter
  * Return: 0
  */
 void positive_or_negative(int i)
