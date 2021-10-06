@@ -4,11 +4,9 @@
  * print_last_digit - Entry
  *
  * @n: variable
- * Return: 0
+ * Return: n
  */
 int print_last_digit(int n)
 {
-	n = 0xn;
-
-	return n;
+	return ((n % 10) + '0');
 }
