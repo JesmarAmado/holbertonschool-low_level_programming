@@ -1,23 +1,22 @@
 #include "main.h"
 
 /**
- * main - Entry
+ * _abs - Entry
  *
+ * @x: variable
  * Return: 0
  */
-
-int _abs(int);
 
 int _abs(int x)
 {
 	if (x < 0)
 	{
 		x = x * -1;
-		return(x);
+		return (x);
 	}
 	else
 	{
-		return(x);
+		return (x);
 	}
 
 	return (0);
