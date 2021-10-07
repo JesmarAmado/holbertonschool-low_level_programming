@@ -3,7 +3,7 @@
 /**
  * print_last_digit - Entry
  *
- * @d: variable
+ * @r: variable
  * Return: 0
  */
 int print_last_digit(int r)
@@ -16,7 +16,7 @@ int print_last_digit(int r)
 	{
 		n = (n * -1);
 	}
-	
+
 	_putchar(n + '0');
 	return (n);
 }
