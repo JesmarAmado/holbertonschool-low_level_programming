@@ -4,23 +4,19 @@
  * print_last_digit - Entry
  *
  * @d: variable
- * Return: 4
+ * Return: 0
  */
-int print_last_digit(int d)
+int print_last_digit(int r)
 {
-	int u;
-	int a;
+	int n;
 
-	if (d >= 0)
-	{
-		u = d % 10;
-		_putchar(u + '0');
-	}
-	if (d < 0)
-	{
-		a = (d % 10) * -1;
-		_putchar(a + '0');
-	}
+	n = (r % 10);
 
-	return (4);
+	if (n < 0)
+	{
+		n = (n * -1);
+	}
+	
+	_putchar(n + '0');
+	return (n);
 }
