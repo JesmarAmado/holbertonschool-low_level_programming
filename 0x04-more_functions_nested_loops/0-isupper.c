@@ -3,6 +3,7 @@
 /**
  * _isupper - Entry
  *
+ * @c: variable
  * Return: 0
  */
 int _isupper(int c)
