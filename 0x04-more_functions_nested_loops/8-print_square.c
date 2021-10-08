@@ -17,11 +17,11 @@ void print_square(int size)
 	{
 		n = 0;
 
-		while(n < size)
+		while (n < size)
 		{
 			a = size;
 
-			while(a > 0)
+			while (a > 0)
 			{
 				_putchar(r);
 				a--;
