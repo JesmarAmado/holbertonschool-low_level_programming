@@ -7,12 +7,13 @@
  */
 void print_diagonal(int n)
 {
-	int r;
-
-	r = 92;
+	int a;
+	int b;
 
 	if (n > 0)
 	{
+		a = 1;
+
 		while(n > 0)
 		{
 			_putchar(r);
