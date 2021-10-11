@@ -19,32 +19,41 @@ void print_times_table(int n)
 			{
 				c = a * b;
 
-				if (c < 10)
+				if (c >= 0)
 				{
-					_putchar((c % 10) + '0');
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(' ');
-				}
-				if (c >= 10)
-				{
-					if (c >= 100)
+					if (c < 10)
 					{
-						_putchar((c / 100) + '0');
-						_putchar(((c / 10) % 10) + '0');
 						_putchar((c % 10) + '0');
+						if (b == n)
+						{
+							break;
+						}
 						_putchar(',');
+						_putchar(' ');
 						_putchar(' ');
 						_putchar(' ');
 					}
-					else 
+					if (c >= 100)
+					{
+						_putchar((c / 100)+ '0');
+						_putchar(((c / 10) % 10) + '0');
+						_putchar((c % 10) + '0');
+						if (b == n)
+						{
+							break;
+						}
+						_putchar(',');
+						_putchar(' ');
+					}
+					if (c >= 10 && c < 100)
 					{
 						_putchar((c / 10) + '0');
 						_putchar((c % 10) + '0');
+						if (b == n)
+						{
+							break;
+						}
 						_putchar(',');
-						_putchar(' ');
 						_putchar(' ');
 						_putchar(' ');
 					}
